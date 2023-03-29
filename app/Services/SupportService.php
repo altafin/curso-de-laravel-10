@@ -37,6 +37,6 @@ class SupportService
 
     public function delete(string $id): void
     {
-        $this->repository->delete();
+        $this->repository->delete($id);
     }
 }
